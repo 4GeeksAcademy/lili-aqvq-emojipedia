@@ -1,46 +1,33 @@
 import React from "react";
 import Emoji from "./Emoji";
+import emojipedia from "../emojipedia";
+
+//1. Create Emoji Component
+//2. Create props to replace hardcoded data.
+//3. Map through the emojipedia array and render Emoji components. Import emojipedia const.
+
+function createEntry(emojiTerm) {
+	return (<Emoji
+		key={emojiTerm.id}
+		emoji={emojiTerm.emoji}
+		name={emojiTerm.name}
+		description={emojiTerm.meaning}
+	/>
+	);
+}
 
 function Home() {
-  return (
-    <div>
-      <h1>
-        <span>emojipedia</span>
-      </h1>
-      
-      <dl className="dictionary">
+	return (
+		<div>
+			<h1>
+				<span>emojipedia</span>
+			</h1>
 
-        <Emoji />
-
-        <div className="term">
-          <dt>
-            <span className="emoji" role="img" aria-label="Tense Biceps">
-              🙏
-            </span>
-            <span>Person With Folded Hands</span>
-          </dt>
-          <dd>
-            Two hands pressed together. Is currently very introverted, saying a
-            prayer, or hoping for enlightenment. Is also used as a “high five”
-            or to say thank you.
-          </dd>
-        </div>
-        <div className="term">
-          <dt>
-            <span className="emoji" role="img" aria-label="Tense Biceps">
-              🤣
-            </span>
-            <span>Rolling On The Floor, Laughing</span>
-          </dt>
-          <dd>
-            This is funny! A smiley face, rolling on the floor, laughing. The
-            face is laughing boundlessly. The emoji version of “rofl“. Stands
-            for „rolling on the floor, laughing“.
-          </dd>
-        </div>
-      </dl>
-    </div>
-  );
+			<dl className="dictionary">
+				{emojipedia.map(createEntry)}
+			</dl>
+		</div>
+	);
 }
 
 export default Home;
