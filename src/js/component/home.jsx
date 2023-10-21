@@ -1,26 +1,46 @@
 import React from "react";
+import Emoji from "./Emoji";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+function Home() {
+  return (
+    <div>
+      <h1>
+        <span>emojipedia</span>
+      </h1>
+      
+      <dl className="dictionary">
 
-//create your first component
-const Home = () => {
-	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
-};
+        <Emoji />
+
+        <div className="term">
+          <dt>
+            <span className="emoji" role="img" aria-label="Tense Biceps">
+              🙏
+            </span>
+            <span>Person With Folded Hands</span>
+          </dt>
+          <dd>
+            Two hands pressed together. Is currently very introverted, saying a
+            prayer, or hoping for enlightenment. Is also used as a “high five”
+            or to say thank you.
+          </dd>
+        </div>
+        <div className="term">
+          <dt>
+            <span className="emoji" role="img" aria-label="Tense Biceps">
+              🤣
+            </span>
+            <span>Rolling On The Floor, Laughing</span>
+          </dt>
+          <dd>
+            This is funny! A smiley face, rolling on the floor, laughing. The
+            face is laughing boundlessly. The emoji version of “rofl“. Stands
+            for „rolling on the floor, laughing“.
+          </dd>
+        </div>
+      </dl>
+    </div>
+  );
+}
 
 export default Home;
