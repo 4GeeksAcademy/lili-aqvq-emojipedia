@@ -39,28 +39,28 @@ const emojipedia = [
       emoji: "👩‍🌾",
       name: "Farmer",
       meaning:
-        "“I come to offer a peace deal. I give you carrots, now work for me“."
+        "“I come to offer a peace deal. I give you carrots, and you let me be your landlord“."
     },
     {
       id: 7,
-      emoji: "🤣",
-      name: "Rolling On The Floor, Laughing",
+      emoji: "🛵",
+      name: "Motor scooter",
       meaning:
-        "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+        "Smooth driver. I come to deliver messages and advice you won't get somewhere else. Until next time."
     },
     {
       id: 8,
-      emoji: "🤣",
-      name: "Rolling On The Floor, Laughing",
+      emoji: "🔥",
+      name: "Fire",
       meaning:
-        "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+        "Unlike common fire meanings, the fire emoji actually represents the flame inside of you that might stop working if you ever pass your power down to a successor."
     },
     {
       id: 9,
-      emoji: "🤣",
-      name: "Rolling On The Floor, Laughing",
+      emoji: "💧",
+      name: "Tear drop",
       meaning:
-        "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+        "Very sad, so sad I almost dropped a tear. So small it could have been confused with sweat. Nobody saw it."
     }
   ];
 
