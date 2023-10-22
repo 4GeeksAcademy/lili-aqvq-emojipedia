@@ -61,7 +61,7 @@ const emojipedia = [
       name: "Tear drop",
       meaning:
         "Very sad, so sad I almost dropped a tear. So small it could have been confused with sweat. Nobody saw it."
-    }
+    },
     {
       id: 10,
       emoji: "🦅",
