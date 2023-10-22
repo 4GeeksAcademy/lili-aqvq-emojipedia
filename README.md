@@ -1,4 +1,4 @@
-# Hello World with React boilerplate
+# Collaborative Emojipedia
 
 Start coding a react application
 
