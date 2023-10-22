@@ -62,6 +62,13 @@ const emojipedia = [
       meaning:
         "Very sad, so sad I almost dropped a tear. So small it could have been confused with sweat. Nobody saw it."
     }
+    {
+      id: 10,
+      emoji: "🦅",
+      name: "Eagle",
+      meaning:
+        "Feeling like help me please, any eagle take me, I feel like a turtle, humiliated, done with life, I want to leave everything behind"
+    } 
   ];
 
   export default emojipedia;
